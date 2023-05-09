@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, material admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, material design, material dashboard bootstrap 4 dashboard template">
+    <meta name="description" content="MaterialPro is powerful and clean admin dashboard template, inpired from Google's Material Design">
+    <meta name="robots" content="noindex,nofollow">
+    <title>곤충으로 그린(Green) 미래</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/materialpro/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link waves-effect waves-dark" href="../../index.html" aria-expanded="false"><i class="ti-loop"></i><span class="hide-menu">홈으로 돌아가기</span></a>
+                        </li>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link waves-effect waves-dark" href="./food.html" aria-expanded="false"><i class="ti-check-box"></i><span class="hide-menu">스타벅스 푸드 주문하기</span></a>
+                        </li>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link waves-effect waves-dark" href="./bugs.html" aria-expanded="false"><i class="ti-menu"></i><span class="hide-menu">식용 곤충 기르기 매뉴얼</span></a>
+                        </li>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link waves-effect waves-dark" href="https://padlet.com/algus8821/padlet-om7iyeoszgr1qs8f" aria-expanded="false"><i class="ti-comment"></i><span class="hide-menu">곤충으로 그린 미래 참여방</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-5 col-12 align-self-center">
+                    <h3 class="text-themecolor mb-0">스타벅스 푸드 주문하기</h3>
+                    <ol class="breadcrumb mb-0 p-0 bg-transparent">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active">스타벅스 푸드 주문하기</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-lg-9 col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">음식 메뉴</h4>
+                                <h6 class="card-subtitle">원하는 음식을 <b>클릭</b>하여 담아주세요.</h6>
+                            
+                                <div class="table-responsive">
+                                    <table class="table" id="#orderTbl">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"><i class="mr-2 mdi mdi-food-variant"></i>비빔밥</th>
+                                                <th scope="col"><i class="mr-2 mdi mdi-fish"></i>구이류</th>
+                                                <th scope="col"><i class="mr-2 mdi mdi-cow"></i>불고기</th>
+                                                <th scope="col"><i class="mr-2 mdi mdi-water"></i>국</th>
+                                                <th scope="col"><i class="mr-2 mdi mdi-apple"></i>사이드 메뉴</th>
+                                                <th scope="col"><i class="mr-2 mdi mdi-food"></i>버거</th>
+                                                <th scope="col"><i class="mr-2 mdi mdi-food-fork-drink"></i>음료</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_0_0" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_0_1" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_0_2" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_0_3" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_0_4" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_0_5" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_0_6" name="menuBtn" value=""></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_1_0" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_1_1" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_1_2" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_1_3" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_1_4" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_1_5" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_1_6" name="menuBtn" value=""></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_2_0" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_2_1" name="menuBtn" value=""></button></td>
+                                                <td id="menu_2_2" name="12" value="">&nbsp;</td>
+                                                <td id="menu_2_3" name="12" value="">&nbsp;</td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_2_4" name="menuBtn" value=""></button></td>
+                                                <td id="menu_2_5" name="menuBtn" value="">&nbsp;</td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_2_6" name="menuBtn" value=""></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_3_0" name="menuBtn" value=""></button></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_3_1" name="menuBtn" value=""></button></td>
+                                                <td id="menu_3_2" name="menuBtn" value="">&nbsp;</td>
+                                                <td id="menu_3_3" name="menuBtn" value="">&nbsp;</td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_3_4" name="menuBtn" value=""></button></td>
+                                                <td id="menu_3_5" name="menuBtn" value="">&nbsp;</td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_3_6" name="menuBtn" value=""></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td id="menu_4_0" name="menuBtn" value=""></td>
+                                                <td id="menu_4_1" name="menuBtn" value=""></td>
+                                                <td id="menu_4_2" name="menuBtn" value=""></td>
+                                                <td id="menu_4_3" name="menuBtn" value=""></td>
+                                                <td id="menu_4_4" name="menuBtn" value=""></td>
+                                                <td id="menu_4_5" name="menuBtn" value=""></td>
+                                                <td><button class="btn btn-lg btn-block font-12 btn-outline-success block-card" id="menu_4_6" name="menuBtn" value=""></button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                        <div class="card">
+                            <div class="list-group mt-4">
+                                <a href="javascript:void(0)" class="list-group-item active">
+                                    <i class="ti-layers mr-2"></i> 메뉴 주문 목록
+                                </a>
+                                <a href="javascript:void(0)" class="list-group-item scrollable" style="height: 280px;" id="orderedList">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-dark" data-toggle="modal" id="initBtn">다시하기</button>
+                                <button type="button" class="btn btn-info" data-toggle="modal" id="resultBtn">결과보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body" style="background-image: url('../assets/images/custom/bg.png'); height:220px">
+                                <h5 class="font-medium font-24">
+                                    이 메뉴로 <b><span class="text-danger" id="co2Span">0</span> kgCo<sub>2e</sub></b>의 온실가스를 배출했습니다.<br><br>
+                                    이는 승용차 1대가 <b><span class="text-danger" id="carSpan">0</span> Km</b> 이동 시 배출하는 온실가스량과 동일하며
+                                    소나무 <b><span class="text-danger" id="treeSpan">0</span> 그루</b>가 1년간 흡수하는 이산화탄소량과 같습니다.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © 2023 CopyRight All Right Reserved. Kim Mi Kyung.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../../dist/js/app.min.js"></script>
+    <script src="../../dist/js/app.init.horizontal.js"></script>
+    <script src="../../dist/js/app-style-switcher.horizontal.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../../dist/js/custom.min.js"></script>
+    
+    <script>
+        const menuArr = [
+            ["비빔밥(불고기)", "소고기 구이", "불고기", "소고기 뭇국", "소고기 잡채", "햄버거", "물"],
+            ["비빔밥(산채)", "양고기 구이", "콩고기 불고기", "콩나물국", "고소애 잡채", "곤충 대체육 햄버거", "사이다"],
+            ["고소애 고추장 비빔밥", "삼겹살 구이", null, null, "멸치볶음", null, "과일주스"],
+            ["쌀밥", "닭고기 구이", null, null, "고소애 꽃벵이 멸치볶음", null, "에스프레소"],
+            [null, null, null, null, null, null, "라떼"]
+        ];
+
+        const weight = {
+            "비빔밥(불고기)": [1.4, 6, 0.2], "비빔밥(산채)": [0.7, 3, 0.1], "고소애 고추장 비빔밥": [0.77, 3, 0.1], "쌀밥": [0.5, 1.9, 0.1],
+            "소고기 구이": [7.7, 33, 1.1], "양고기 구이": [10, 43, 1.4], "삼겹살 구이": [1, 4.3, 0.14], "닭고기 구이": [1, 4.3, 0.14],
+            "불고기": [13.9, 58, 2.1], "콩고기 불고기": [1.39, 6, 0.2],
+            "소고기 뭇국": [7.7, 32, 1.2], "콩나물국": [0.5, 2, 0.1],
+            "소고기 잡채": [0.6, 2.3, 0.1], "고소애 잡채": [0.18, 0.69, 0.03], "멸치볶음": [0.1, 0.5, 0], "고소애 꽃벵이 멸치볶음": [0.06, 0.23, 0],
+            "햄버거": [3, 12, 0.4], "곤충 대체육 햄버거": [1, 4.3, 0.14],
+            "물": [0, 0, 0], "사이다": [0.44, 1.2, 0,06], "과일주스": [0.39, 1.2, 0.06], "에스프레소": [0.3, 1.2, 0.06], "라떼": [0.5, 1.5, 0.09]
+        }
+
+        for(let i = 0; i < menuArr.length; i++) {
+            for(let j = 0; j < menuArr[i].length; j++) {
+                let cell = menuArr[i][j];
+                console.log("#menu_" + i +"_" + j, cell);
+                $("#menu_" + i +"_" + j).text(cell);
+            }
+        }
+
+        let orderedArr = [];
+        $("button[name=menuBtn]").click(function() {
+            let thisVal = $(this).text();
+            console.log(thisVal);
+            orderedArr.push(thisVal);
+
+            let elem = '';
+            for(let i = 0; i < orderedArr.length; i++) {
+                elem = elem +
+                    '<div class="alert alert-info alert-dismissible fade show" role="alert" name="orderedDiv">' + 
+                        '<button type="button" class="close ml-auto" data-dismiss="alert" aria-label="Close">' +
+                            '<span aria-hidden="true">&times;</span>' + 
+                        '</button>' +
+                        orderedArr[i] +
+                    '</div>';
+            }
+            $('#orderedList').html('');
+            $('#orderedList').html(elem);
+            bindClickEvent();
+        });
+
+        function bindClickEvent() {
+            $("Div[name=orderedDiv]").click(function() {
+                let delMenu = $(this).text();
+                //alert(delMenu.substr(1));
+                
+                for(let i = 0; i < orderedArr.length; i++) {
+                    if (orderedArr[i] == delMenu.substr(1)) {
+                        orderedArr.splice(i, 1);
+                        break;
+                    }
+                }
+            });
+        }
+        
+
+        $("#resultBtn").click(function() {
+            let co2Sum = 0;
+            let carSum = 0;
+            let treeSum = 0;
+            //console.log(orderedArr);
+            for(let i = 0; i < orderedArr.length; i++) {
+                let valArr = weight[orderedArr[i]];
+                co2Sum += valArr[0];
+                carSum += valArr[1];
+                treeSum += valArr[2];
+            }
+
+            $("#co2Span").text(co2Sum.toFixed(1));
+            $("#carSpan").text(carSum.toFixed(1));
+            $("#treeSpan").text(treeSum.toFixed(1));
+        });
+
+        $("#initBtn").click(function() {
+            orderedArr = [];
+            co2Sum = 0;
+            carSum = 0;
+            treeSum = 0;
+            
+            $('#orderedList').html('');
+
+            $("#co2Span").text(co2Sum);
+            $("#carSpan").text(carSum);
+            $("#treeSpan").text(treeSum);
+        });
+
+        
+    </script>
+</body>
+
+</html>
